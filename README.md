@@ -1,5 +1,7 @@
 # 2017 itrace startup
 
+准备的Java 开发框架。
+
 ## 初始化 IDE 配置
 ``` shell
 $ mvn eclipse:eclipse  # or
