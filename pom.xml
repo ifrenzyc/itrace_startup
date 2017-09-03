@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.itsyc</groupId>
-	<artifactId>itrace</artifactId>
+	<artifactId>itrace_startup</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>itrace</name>
+	<name>2017 itrace startup</name>
 	<description>Project for IT Race</description>
 
 	<parent>
