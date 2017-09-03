@@ -1,5 +1,11 @@
 # 2017 itrace startup
 
+## 初始化 IDE 配置
+``` shell
+$ mvn eclipse:eclipse  # or
+$ mvn idea:idea
+```
+
 ## 调试和运行
 工程采用了Spring Boot 搭建。使运行这个工程变得非常简单。
 ``` shell
