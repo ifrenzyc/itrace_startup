@@ -47,9 +47,24 @@ while ((line = br.readLine()) != null) {
 $ java -jar -cp=.:./files/* itrace_startup-0.0.1-SNAPSHOT.jar
 ```
 
+## 集成 JPA
+`spring-boot-starter-data-jpa` 是非常轻量级的 ORM 框架。
+
+只要创建实体（`Cust`、`CustGroup`）、创建接口（`CustRepository`、`CustGroupRepository`）即可完成对数据库表到对象的 ORM 访问。
+
+具体参考：`CustController` -> `CustRepository` -> `Cust`。
+
+### 启动时报错
+需要在 `application.properties` 文件指定的数据库实例上创建 `itrace_startup` 数据库。
+
+### 参考材料
+- [Spring Boot中使用Spring-data-jpa让数据访问更简单、更优雅](http://www.jianshu.com/p/38d27b633d9c)
+- [spring-boot/spring-boot-samples/spring-boot-sample-data-jpa - GitHub](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa)
+
 ## to-do
 - [X] 实现选拔赛题目一
 - [X] 实现选拔赛题目二
 - [X] 集成文件读取和写入（从 classpth）
 - [X] 集成简单的web/http 功能
-- [ ] 集成轻量级的ORM 框架（JPA）
+- [X] 集成轻量级的ORM 框架（JPA）
+- [ ] 集成 Dubbo
