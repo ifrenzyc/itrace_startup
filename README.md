@@ -50,6 +50,6 @@ $ java -jar -cp=.:./files/* itrace_startup-0.0.1-SNAPSHOT.jar
 ## to-do
 - [X] 实现选拔赛题目一
 - [X] 实现选拔赛题目二
-- [ ] 集成文件读取和写入（从 classpth）
-- [ ] 集成简单的web/http 功能
+- [X] 集成文件读取和写入（从 classpth）
+- [X] 集成简单的web/http 功能
 - [ ] 集成轻量级的ORM 框架（JPA）
